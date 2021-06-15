@@ -181,7 +181,7 @@ the following:
       1. gitignore globs (including global and repo-specific globs).
       2. `.ignore` globs, which take precedence over all gitignore globs
          when there's a conflict.
-      4. `.rgignore` globs, which take precedence over all `.ignore` globs
+      3. `.rgignore` globs, which take precedence over all `.ignore` globs
          when there's a conflict.
 2. Hidden files and directories.
 3. Binary files. (ripgrep considers any file with a `NUL` byte to be binary.)
